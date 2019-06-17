@@ -1,0 +1,25 @@
+body {
+  background-color: white;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+header {
+background-color: black;
+color: white;
+font-size: 135%;
+padding: 3px;
+}
+.name {
+  font-size: 130%;
+  padding: 25px;
+}
+.aboutInput {
+  font-size: 115%;
+}
+input {
+  border: 2px solid black;
+  width: 250px;
+}

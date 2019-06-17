@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Рассчитать ИМТ (Индекс Массы Тела) - SportCounter</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="css/imt.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      SportCounter
+    </header>
+    <div class="name">
+      Рассчитать ИМТ
+    </div>
+    <article id="calculator">
+    <div class="aboutInput">
+    Введите свой рост (см):
+    </div>
+    <div class="input w3-panel w3-mobile">
+    <input>
+    </div>
+    <div class="aboutInput">
+    Введите свой вес (кг):
+    </div>
+    <div class="input w3-panel w3-mobile">
+    <input>
+    </div>
+    <div class="buttonDiv w3-panel">
+<button class="w3-btn w3-black w3-round" onclick="imtCalculation">РАССЧИТАТЬ</button>
+    </div>
+    </article>
+    <article id="result">
+
+    </article>
+    <article id="aboutResult">
+
+    </article>
+    <article class="about w3-content w3-panel" style="max-width:800px">
+      <div>
+        Что такое ИМТ? <br>
+        Индекс массы тела (BMI, ИМТ) — величина, позволяющая оценить степень соответствия массы человека и его роста и тем самым косвенно оценить, является ли масса недостаточной, нормальной или избыточной. Важен при определении показаний для необходимости лечения. <br>
+        Результат может быть неточным для спортсменов с избыточной мышечной массой.
+      </div>
+    </article>
+  </body>
+</html>
