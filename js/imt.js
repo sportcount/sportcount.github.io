@@ -25,7 +25,7 @@ function imt() {
   } else if ((bmi >= 40.1) && (bmi < 200)) {
     $("#badResult").html("Ожирение третьей степени");
     $("#goodResult").empty();
-  } else if (bmi >= 200) {
+  } else if ((bmi >= 200)&&(bmi < 9999999999)) {
     $("#badResult").html("ТЫ КТО ТВАРЬ?????!!!!");
     $("#goodResult").empty();
   }
