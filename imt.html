@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Рассчитать ИМТ (Индекс Массы Тела) - SportCounter</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="js/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="css/imt.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+<header>
+  Sportcounter
+</header>
+<article class="calculator w3-container w3-content" style="max-width: 900px">
+  <section class="name w3-panel">
+    Рассчитать ИМТ
+  </section>
+  <section class="inputSection w3-panel">
+    <label>Ваш рост (см):</label>
+    <div class="inputAround"><input class="input w3-mobile" id="height" type="text"></div>
+  </section>
+  <section class="inputSection w3-panel">
+    <label>Ваш вес (кг):</label>
+    <div class="inputAround"><input class="input w3-mobile" id="weight" type="text"></div>
+  </section>
+  <section class="buttonSection w3-panel">
+    <button class="w3-btn w3-black w3-round" onclick="imt()">РАССЧИТАТЬ</button>
+  </section>
+  <section class="result">
+    <div id="resultNumber">
+
+    </div>
+    <div id="goodResult">
+
+    </div>
+    <div id="badResult">
+
+    </div>
+  </section>
+</article>
+<article class="about w3-content w3-panel" style="max-width: 900px">
+  <h4>Что такое ИМТ?</h4>
+<div class="text">
+Индекс массы тела (BMI, ИМТ) — величина, позволяющая оценить степень соответствия массы человека и его роста и тем самым косвенно оценить, является ли масса недостаточной, нормальной или избыточной. Важен при определении показаний для необходимости лечения.
+Результаты могут быть неточными для профессиональных спорстменов.
+</div>
+</article>
+<article class="calculators w3-panel w3-content" style="max-width: 900px;">
+<section class="name">
+  Другие калькуляторы
+</section>
+<section class="w3-container">
+  <div class="w3-panel w3-half">
+    <div class="w3-card">
+      <a href="speed.html"><img src="img/2.jpg" alt="" width="100%"></a>
+      <div class="text">
+      <a href="speed.html">Скорость бега</a>
+      </div>
+    </div>
+  </div>
+  <div class="w3-panel w3-half">
+    <div class="w3-card">
+      <a href="max.html"><img src="img/3.jpg" alt="" width="100%"></a>
+      <a href="max.html"><div class="text"></a>
+        Одноповторный максимум
+      </div>
+    </div>
+  </div>
+</section>
+<section class="w3-container">
+  <div class="w3-panel w3-half">
+    <div class="w3-card">
+      <a href="speed.html"><img src="img/4.jpg" alt="" width="100%"></a>
+      <div class="text">
+      <a href="speed.html">Идеальные пропорции</a>
+      </div>
+    </div>
+  </div>
+  <div class="w3-panel w3-half">
+    <div class="w3-card">
+      <a href="speed.html"><img src="img/5.jpg" alt="" width="100%"></a>
+      <div class="text">
+      <a href="speed.html">Кол-во калорий</a>
+      </div>
+    </div>
+  </div>
+</section>
+</article>
+  </body>
+</html>

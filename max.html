@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Рассчитать одноповторный максимум - SportCounter</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="js/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="css/imt.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+<header>
+  Sportcounter
+</header>
+<article class="calculator w3-container w3-content" style="max-width: 900px">
+  <section class="name w3-panel">
+    Рассчитать одноповторный максимум
+  </section>
+  <section class="inputSection w3-panel">
+    <label>Вес штанги/гири (кг):</label>
+    <div class="inputAround"><input class="input w3-mobile" id="weight" type="text"></div>
+  </section>
+  <section class="inputSection w3-panel">
+    <label>Кол-во повторений:</label>
+    <div class="inputAround"><input class="input w3-mobile" id="reps" type="text"></div>
+  </section>
+  <section class="buttonSection w3-panel">
+    <button class="w3-btn w3-black w3-round" onclick="imt()">РАССЧИТАТЬ</button>
+  </section>
+  <section class="result">
+    <div class="warning">
+
+    </div>
+    <div id="formula1">
+
+    </div>
+    <div id="formula2">
+
+    </div>
+    <div id="formula3">
+
+    </div>
+    <div id="formula4">
+
+    </div>
+    <div id="formula5">
+
+    </div>
+  </section>
+</article>
+<article class="about w3-content w3-panel" style="max-width: 900px">
+  <h4>Одноповторный максимум</h4>
+<div class="text">
+Наш калькулятор одноповторного максимума позволит Вам узнать свои показатели в том или ином силовом упражнении и подобрать правильный рабочий вес.
+</div>
+</article>
+<article class="calculators w3-panel w3-content" style="max-width: 900px;">
+<section class="name">
+  Другие калькуляторы
+</section>
+<section class="w3-container">
+  <div class="w3-panel w3-half">
+    <div class="w3-card">
+      <a href="speed.html"><img src="img/2.jpg" alt="" width="100%"></a>
+      <div class="text">
+      <a href="speed.html">Скорость бега</a>
+      </div>
+    </div>
+  </div>
+  <div class="w3-panel w3-half">
+    <div class="w3-card">
+      <a href="speed.html"><img src="img/1.jpg" alt="" width="100%"></a>
+      <div class="text">
+      <a href="speed.html">Рассчитать ИМТ</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="w3-container">
+  <div class="w3-panel w3-half">
+    <div class="w3-card">
+      <a href="speed.html"><img src="img/4.jpg" alt="" width="100%"></a>
+      <div class="text">
+      <a href="speed.html">Идеальные пропорции</a>
+      </div>
+    </div>
+  </div>
+  <div class="w3-panel w3-half">
+    <div class="w3-card">
+      <a href="speed.html"><img src="img/5.jpg" alt="" width="100%"></a>
+      <div class="text">
+      <a href="speed.html">Кол-во калорий</a>
+      </div>
+    </div>
+  </div>
+</section>
+</article>
+  </body>
+</html>
